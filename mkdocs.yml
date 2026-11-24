@@ -1,0 +1,23 @@
+site_name: lhao.net
+site_url: https://lhao.net
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.prune
+    - content.code.copy
+markdown_extensions:
+  - attr_list
+  - md_in_html
+plugins:
+  - tags:
+      tags_file: tags.md
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: G-WHWQE1N87Z
+copyright: lhao.com
